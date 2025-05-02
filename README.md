@@ -1,5 +1,5 @@
 
-# Cleopatra Server
+#  Server
 
 A robust Express.js backend application written in TypeScript for managing invoices, customers, business operations, and third-party integrations.
 
@@ -55,8 +55,7 @@ Make sure you have the following installed on your machine:
 ### 1. Project Installation
 
 ```bash
-git clone https://github.com/yourusername/cleopatra-server.git
-cd cleopatra-server
+git clone 
 npm install
 ```
 
