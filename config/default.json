@@ -1,0 +1,27 @@
+{
+    "server" : {
+        "host" : "0.0.0.0",
+        "http_port" : 8080,
+        "ws_port" : 8081,
+        "url" : "http://localhost",
+        "socketUrl" : "http://localhost:8081"
+    },
+    "database": {
+        "name": "ebdb",
+        "username": "root",
+        "password": "Test123",
+        "host": "localhost",
+        "port": 3306
+    },
+    "aws": {
+        "region": "us-west-2",
+        "s3" : {
+            "bucketName": "cleopatra-media"
+        }
+    },
+    "meta": {
+        "appId": "889246863291784",
+        "appSecret": "e2a52747e0a8f960ee0320c347dbd3f2"
+    },
+    "booksSync": false 
+}

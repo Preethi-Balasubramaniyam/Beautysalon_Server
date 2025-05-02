@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+node_modules/
+
+#IDE Specific files
+.idea/
+
+~/
+
+logs/
+
+dist/
+
+dist-test/
+
+package-lock.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+*.log
+cleopatra-prod-access.pem
+.env.stage
+coverage/
+src/zohoServices/tokens/

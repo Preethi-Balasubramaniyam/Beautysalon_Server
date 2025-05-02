@@ -1,0 +1,42 @@
+{
+    "server" : {
+        "host" : "0.0.0.0",
+        "http_port" : 8080,
+        "ws_port" : 5123,
+        "url" : "http://localhost",
+        "socketUrl" : "http://localhost:5123"
+    },
+    "database": {
+        "name": "ebdb",
+        "username": "root",
+        "password": "Test123",
+        "host": "localhost",
+        "port": 3306
+    },
+    "zoho": {
+        "client_id": "1000.Y1H8Z189XIEGATKN5K36EB2GG80JFN",
+        "client_secret": "d21632e5ac1aefcb538a59b91fc3ececa502f8d790",
+        "redirect_uri": "https://www.yazz.in",
+        "organization_id": "60034221396",
+        "api_url": "https://www.zohoapis.in/books/v3",
+        "refresh_token": "1000.bce12594f290e0c6bfe367746da586df.8c3c81ce368b6e44bc7685e1d3a624a7",
+        "auth_url": "https://accounts.zoho.in/oauth/v2/auth",
+        "token_url": "https://accounts.zoho.in/oauth/v2/token"
+    },
+    "chatEndpoints": [
+        {
+            "endpoint": "+15551942803",
+            "type": "mobile"
+        }
+    ],
+    "+15551942803": {
+        "whatsapp" : {
+            "api_url": "https://graph.facebook.com/v21.0/",
+            "auth_token": "EAAMowZBtndYgBO2dYEDe61fNFLfnMHJKcHiEclIojKHslsZCcQZBt3Ria1RSkOm3H1OBCELtYHZAHbbl5ROxvI5Qt9PceQopcACqm0Q6voy5iIFUZBR0Q8Pktr6QZCGajPqfHxfv9ix9sICHSQ1NGWGb3HlsdjCn2dUiJox8OzZBsntyYnQznsk0JeOIbfUxQONbRCxQywXapgOH6HV7PsKAPrs0rZC1AKD996Rng8vs",
+            "phone_number": "+15551942803",
+            "account_id": "464702240058656",
+            "phone_id": "458977263966422"
+        }
+    },
+    "booksSync": false 
+}

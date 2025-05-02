@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Node.js code
+      - npm run build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'
+
+eb_codebuild_settings:
+  CodeBuildServiceRole: role-name
+  ComputeType: size
+  Image: image
+  Timeout: minutes   
+
